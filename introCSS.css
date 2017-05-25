@@ -1,0 +1,59 @@
+@import 'https://fonts.googleapis.com/css?family=Lalezar';
+body {
+    margin:0;
+    overflow:hidden;
+    width:100vw;
+    height:100vh;
+    font-family: 'Lalezar', cursive;
+    text-align: center;
+}
+
+#text {
+    position:absolute;
+    bottom:-30px;
+    left:10px;
+    z-index: 3;
+    color: #000000;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 0;
+    padding:0;
+    font-weight: 400;
+    line-height: 0;
+    opacity: .75;
+
+}
+
+h1{
+    padding-top:10px;
+}
+
+/*----------------------- Change Pictures -------------------------------------------------------------------------*/
+
+#picture {
+    animation:zoomIn 10s linear infinite alternate;
+    background-image:url(http://i.dailymail.co.uk/i/pix/2015/08/09/18/2B3A702300000578-3191323-the_Hatfield_clan_in_1899_The_feud_was_rooted_in_the_Civil_War_b-a-18_1439142335621.jpg);
+    background-size:cover;
+    height:100vh;
+    position:fixed;
+    width:100vw;
+}
+
+#glass {
+    animation:zoomIn 20s linear infinite alternate-reverse;
+    background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/71829/5791996587_7b192ffbf7_o.jpg);
+    background-size:cover;
+    height:100vh;
+    opacity:.3;
+    position:fixed;
+    width:100vw;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform:scale(1);
+    }
+    100% {
+        transform:scale(1.1);
+    }
+}
