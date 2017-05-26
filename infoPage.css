@@ -215,10 +215,11 @@
     padding-right: 70px;
 }
 #introhead{
-    font-size: 120pt;
+    font-size:16vh;
+
 }
 #introduction{
-    font-size: 20pt;
+    font-size: 3vh;
 }
 p{
     margin-top: 40px;
