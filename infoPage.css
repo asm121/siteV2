@@ -12,10 +12,9 @@
     width: 100px;
     height: 300px;
     position: absolute;
-    left: 25%;
-    top: 25%;
-    margin-left: -150px;
-    margin-top: -150px;
+    left: 25vw;
+    top: 0vh;
+
 
 }
 
