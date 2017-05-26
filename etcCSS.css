@@ -1,5 +1,5 @@
 html{
-    overflow-x: hidden;
+    overflow-x: auto;
     font-family: 'PT Sans', sans-serif;
     overflow-y: auto;
     height: 100%;
