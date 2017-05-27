@@ -25,7 +25,7 @@
     left: 50vw;
 }
 
-#desc,#name {
+#desc,#name,#desc2 {
     position: absolute;
     font-size: 50pt;
     text-align: left;
@@ -33,10 +33,17 @@
     top:90vh;
     line-height: 20%;
 
+
 }
 
+#desc2{
+    top:89vh;
+}
+#desc{
+    top: 77vh;
+}
 #name{
-    top: 80vh;
+    top: 60vh;
 }
 
 
