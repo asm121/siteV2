@@ -4,7 +4,6 @@
     max-width: 100vw;
     min-height: 100vh;
     min-width: 100vw;
-    overflow: auto;
     color: #562449;
 }
 #subCenter{
@@ -17,7 +16,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-duration: 15s;
-    transform-origin: 50% 50%;
+
 }
 #sub {
     position: inherit;
@@ -198,6 +197,7 @@
     left: 48px;
     transform: rotate(90deg);
 }
+
 @keyframes MoveUpDown {
     0% {transform: none;}
     25% {transform:  translateY(-50px) translateX(20px) rotate(5deg);}
@@ -225,5 +225,4 @@ p{
     margin-top: 40px;
     margin-bottom:40px;
 }
-
 

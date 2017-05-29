@@ -1,7 +1,73 @@
 html{
     overflow-x: hidden;
+    overflow-y: hidden;
     font-family: 'PT Sans', sans-serif;
-    overflow-y: auto;
+
     height: 100%;
 
+
+
 }
+
+#dot1{
+    border: 1.4px solid black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: fixed;
+    top: 44vh;
+    left: 97vw;
+    transition:.1s ease-in-out;
+
+}
+
+#dot2{
+
+    border: 1.4px solid black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: fixed;
+    top: 48vh;
+    left: 97vw;
+    transition:.1s ease-in-out;
+}
+
+#dot3{
+    border: 1.4px solid black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: fixed;
+    top: 52vh;
+    left: 97vw;
+    transition:.1s ease-in-out;
+}
+
+#dot4{
+    border: 1.4px solid black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: fixed;
+    top: 56vh;
+    left: 97vw;
+    transition:.1s ease-in-out;
+
+}
+
+#dot1:hover{
+    transform: scale(1.2);
+}
+#dot2:hover{
+    transform: scale(1.2);
+}
+#dot3:hover{
+    transform: scale(1.2);
+}
+
+#dot4:hover{
+    transform: scale(1.2);
+}
+
+
