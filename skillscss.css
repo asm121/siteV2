@@ -47,7 +47,7 @@
     border-radius: 50%;
     height: 40vh;
     width: 40vh;
-    /*animation: rotation 45s linear 0s infinite normal none;*/
+    animation: rotation 45s linear 0s infinite normal none;
 
 }
 #innermoon{
@@ -345,6 +345,76 @@
     position: absolute;
 }
 
+#shipbody{
+    width:20px;
+    height: 60px;
+    background: #4f5dd1;
+    border-radius: 60%;
+    top:2px;
+    left:2.5px;
+    position: inherit;
+}
+#shipouterbody{
+    width:25px;
+    height: 65px;
+    background: #3b47a5;
+    border-radius: 60%;
+    top:-65px;
+    left:120px;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#rleg{
+    width: 34px;
+    height: 40px;
+    border-radius: 23%;
+    box-shadow: 0px 3.5px 0px 0px #3b47a5;
+    position: inherit;
+    top: 50px;
+    left:-10px;
+    transform: rotate(-110deg);
+}
+#lleg{
+    width: 34px;
+    height: 45px;
+    border-radius: 23%;
+    box-shadow: 0px 3.5px 0px 0px #3b47a5;
+    position: inherit;
+    top: 45px;
+    left:6px;
+    transform: rotate(-75deg) scale(1, -1);
+}
+
+#fleg{
+    width: 3.5px;
+    height: 35px;
+    border-radius: 2%;
+    position: inherit;
+    background-color: #3b47a5;
+    top: 40px;
+    left:11px;
+    transform: rotate(-5deg);
+}
+
+#shipwindowout{
+    background-color: #3b47a5;
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    left:4px;
+    top:11px;
+    position: absolute;
+}
+#shipwindow{
+    background-color: #434eac;
+    width:9px;
+    height:9px;
+    border-radius: 50%;
+    left:1px;
+    top:1px;
+    position: absolute;
+
+}
 
 
 
