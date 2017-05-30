@@ -47,7 +47,7 @@
     border-radius: 50%;
     height: 40vh;
     width: 40vh;
-    /*animation: rotation 45s linear 0s infinite normal none;*/
+     animation: rotation 45s linear 0s infinite normal none;
 
 }
 #innermoon{
@@ -81,14 +81,14 @@
 }
 
 #crater2{
-     background-color: #e0e4e9;
-     top: 1px;
-     left: 1px;
-     border-radius: 50%;
-     height: 5vh;
-     width: 5vh;
-     position: relative;
- }
+    background-color: #e0e4e9;
+    top: 1px;
+    left: 1px;
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
+    position: relative;
+}
 
 #crater2outline{
     background-color: #93959e;
