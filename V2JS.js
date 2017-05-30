@@ -86,13 +86,93 @@ $(document).ready(function(){
         }
     });
 
+    // Firefox 1.0+
+    var isFirefox = typeof InstallTrigger !== 'undefined';
+    // Chrome 1+
+    var isChrome = !!window.chrome && !!window.chrome.webstore;
+
+    if(isFirefox) {
+        (function () {
+            var delay = false;
+
+            $(document).on('mousewheel DOMMouseScroll', function (event) {
+                event.preventDefault();
+                if (delay) return;
+
+                delay = true;
+                setTimeout(function () {
+                    delay = false
+                }, 200)
+
+                var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
+
+                var a = document.getElementsByTagName('a');
+                if (wd < 0) {
+                    for (var i = 0; i < a.length; i++) {
+                        var t = a[i].getClientRects()[0].top;
+                        if (t >= 40) break;
+                    }
+                }
+                else {
+                    for (var i = a.length - 1; i >= 0; i--) {
+                        var t = a[i].getClientRects()[0].top;
+                        if (t < -20) break;
+                    }
+                }
+                if (i >= 0 && i < a.length) {
+                    $('html,body').animate({
+                        scrollTop: a[i].offsetTop + 14
+                    });
+                }
+            });
+        })();
+    }
+
+    if (isChrome){
+        (function () {
+            var delay = false;
+
+            $(document).on('mousewheel DOMMouseScroll', function (event) {
+                event.preventDefault();
+                if (delay) return;
+
+                delay = true;
+                setTimeout(function () {
+                    delay = false
+                }, 200)
+
+                var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
+
+                var a = document.getElementsByTagName('a');
+                if (wd < 0) {
+                    for (var i = 0; i < a.length; i++) {
+                        var t = a[i].getClientRects()[0].top;
+                        if (t >= 40) break;
+                    }
+                }
+                else {
+                    for (var i = a.length - 1; i >= 0; i--) {
+                        var t = a[i].getClientRects()[0].top;
+                        if (t < -20) break;
+                    }
+                }
+                if (i >= 0 && i < a.length) {
+                    $('html,body').animate({
+                        scrollTop: a[i].offsetTop
+                    });
+                }
+            });
+        })();
 
 
-
-    $('.scroll').one('2', function(e) {
-        // jump to section
-        // window.location.hash = 'section';
-        alert('jumping to #section');
-    });
+    }
+    //FIX FOR NON CHROME AND FIREFOX USERS. IE IS NOT LETTING SCROLL 
+    if ((isChrome||isFirefox)==false){
+        document.getElementById('html').style.overflowY = "scroll";
+        document.getElementById('#contact').style.height = "";
+        document.getElementById('#skills').style.height = "";
+        document.getElementById('#infopage').style.height = "";
+        document.getElementById('#intro').style.height = "";
+    }
 
 });
