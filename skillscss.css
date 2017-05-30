@@ -38,7 +38,7 @@
     color: #A0D468;
     margin-bottom: 40px;
 }
-    @media all and (min-width: 1224px) and (max-width: 1599px){
+    @media (min-width: 1px) and (max-width: 1599px){
     #moon {
         position: absolute;
         top: 235vh;
@@ -438,7 +438,7 @@
     }
 }
 
-@media all and (min-width: 1600px) {
+@media (min-width: 1600px) {
     #moon {
         position: absolute;
         top: 235vh;
