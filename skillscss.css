@@ -39,16 +39,19 @@
     margin-bottom: 40px;
 }
 
-#moon{
-    position: absolute;
-    top:235vh;
-    left: 55vw;
-    background-color: #93959e;
-    border-radius: 50%;
-    height: 40vh;
-    width: 40vh;
-    /*animation: rotation 45s linear 0s infinite normal none;*/
+@media all and (min-width: 1300px) {
 
+    #moon {
+        position: absolute;
+        top: 235vh;
+        left: 55vw;
+        background-color: #93959e;
+        border-radius: 50%;
+        height: 40vh;
+        width: 40vh;
+        animation: rotation 45s linear 0s infinite normal none;
+
+    }
 }
 #innermoon{
     background-color: #c7cbd0;
