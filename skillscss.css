@@ -38,6 +38,9 @@
     color: #A0D468;
     margin-bottom: 40px;
 }
+
+@media all and (min-width: 1400px) {
+
     #moon {
         position: absolute;
         top: 235vh;
@@ -362,9 +365,10 @@
         position: absolute;
     }
 
-    #ship{
+    #ship {
         position: absolute;
     }
+
     #shipbody {
         width: 20px;
         height: 60px;
@@ -439,7 +443,7 @@
         position: absolute;
 
     }
-
+}
     @keyframes rotation {
         from {
             transform: rotate(0deg);
