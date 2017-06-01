@@ -24,14 +24,154 @@
     height:2%;
     width:10px;
     position:absolute;
-    -webkit-animation-name: dostuff;
+    -webkit-animation-name: wavemove;
     -webkit-animation-duration:10s;
     -webkit-animation-iteration-count: infinite;
     -webkit-transition-timing-function: ease-in-out;
 }
 
 
-@-webkit-keyframes dostuff{
+#b{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left:75vw;
+    background-color: #7e94ff;
+    position: absolute;
+    animation: float 5s linear 0s infinite normal none;
+    transform: rotate(-60deg);
+}
+#bi{
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: #5d6efb;
+    left: 1.5px;
+    top:2px;
+    opacity: 20;
+
+}
+#b2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left:90vw;
+    background-color: #7e94ff;
+    position: absolute;
+    animation: float 5s linear 0s infinite normal none;
+    transform: rotate(-60deg);
+    animation-delay: 1.5s;
+}
+#bi2{
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: #5d6efb;
+    left: 1.5px;
+    top:2px;
+    opacity: 20;
+}
+#b3{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left:83vw;
+    background-color: #7e94ff;
+    position: absolute;
+    animation: float 5s linear 0s infinite normal none;
+    transform: rotate(-60deg);
+    animation-delay: 3s;
+}
+#bi3{
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: #5d6efb;
+    left: 1.5px;
+    top:2px;
+    opacity: 20;
+}
+#b4{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left:55vw;
+    background-color: #7e94ff;
+    position: absolute;
+    animation: float 5s linear 0s infinite normal none;
+    transform: rotate(-60deg);
+    animation-delay: 4.5s;
+}
+#bi4{
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: #5d6efb;
+    left: 1.5px;
+    top:2px;
+    opacity: 20;
+}
+#b5{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left:65vw;
+    background-color: #7e94ff;
+    position: absolute;
+    animation: float 5s linear 0s infinite normal none;
+    transform: rotate(-60deg);
+    animation-delay: 6s;
+}
+#bi5{
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: #5d6efb;
+    left: 1.5px;
+    top:2px;
+    opacity: 20;
+}
+
+@-webkit-keyframes float{
+    0%{
+        top:110vh;
+
+    }
+    1%{
+
+        visibility: visible;
+    }
+    25%{
+        transform: rotate(5deg);
+        transform-origin: bottom right;
+    }
+
+    50%{
+        top:50vh;
+        transform: rotate(20deg);
+        transform-origin: top right;
+
+    }
+
+    75%{
+        transform: rotate(10deg);
+        transform-origin: bottom right;
+    }
+    100%{
+        top:-5vh;
+
+    }
+}
+
+
+
+
+@-webkit-keyframes wavemove{
     0%{
         height:2%;
     }
