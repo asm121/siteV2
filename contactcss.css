@@ -150,6 +150,18 @@
     opacity: 20;
 }
 
+
+#sand {
+    position: absolute;
+    height: 50vh;
+    width: 100vw;
+    top: 380vh;
+    left: 50vw;
+    border-radius: 60%;
+    background-color: #dbb070;
+
+}
+
 @-webkit-keyframes float{
     0%{
         top:100vh;
@@ -176,7 +188,6 @@
 
     }
 }
-
 
 
 
