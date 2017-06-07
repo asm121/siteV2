@@ -86,7 +86,7 @@
     position: absolute;
     animation: float 6.9s linear 0s infinite normal none;
     transform: rotate(-60deg);
-    animation-delay: 1.5s;
+    animation-delay: 2.5s;
 }
 #bi2{
     position: absolute;
