@@ -196,7 +196,7 @@
         transform-origin: bottom right;
     }
     100%{
-        top:-5vh;
+        top:0vh;
 
     }
 }
