@@ -12,12 +12,24 @@
     position: absolute;
     text-align: center;
     top:8vh;
-    padding-left: 70px;
+    width:50vw;
+
 
 }
 
 #contactTitle{
     font-size: 16vh;
+    left:1.2vw;
+    position: absolute;
+}
+
+#cinfo{
+    position: absolute;
+    top:73vh;
+    font-size: 6vh;
+    text-align: left;
+    left:1.2vw;
+
 }
 
 
