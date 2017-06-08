@@ -171,8 +171,66 @@
     left: 50vw;
     border-radius: 60%;
     background-color: #dbb070;
+}
+
+#rec{
+    position: absolute;
+    height: 10vh;
+    width: 13vh;
+    background-color: #4c2b00;
+    top: 3vw;
+    left: 7vw;
+}
+
+
+.fa {
+
+
+    font-size: 25vh;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+
+    position: absolute;
+    top: 38vh;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+
 
 }
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin-square{
+
+    color: #562449;
+
+    position: absolute;
+    left: 1.2vw;
+}
+
+.fa-codepen{
+
+    color: #562449;
+    left: 14.5vw;
+
+    position: absolute;
+}
+
+
+.fa-github-square{
+
+    color: #562449;
+    left: 30vw;
+
+    position: absolute;
+}
+
+
 
 @-webkit-keyframes float{
     0%{

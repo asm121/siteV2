@@ -119,7 +119,7 @@ $(document).ready(function(){
                         if (t < -20) break;
                     }
                 }
-                if (i >= 0 && i < a.length) {
+                if (i >= 0 && i < a.length){
                     $('html,body').animate({
                         scrollTop: a[i].offsetTop + 14
                     });
@@ -192,7 +192,7 @@ $(document).ready(function(){
     ocean.appendChild(docFrag);
 
 
-
+    /* disable space and arrow keys to scroll */
     window.addEventListener("keydown", function(e) {
         // space and arrow keys
         if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
