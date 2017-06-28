@@ -55,6 +55,27 @@
     -webkit-transition-timing-function: ease-in-out;
 }
 
+#wreckbody{
+    top: 375vh;
+    height: 7vw;
+    width:50vh;
+    border-radius: 0px 0px 250px 250px;
+    left:60vw;
+    background-color: #4c2b00;
+    position: absolute;
+    transform: rotate(-10deg);
+
+}
+
+#mast{
+    height: 30vw;
+    width:2.5vh;
+    top:10vh;
+    left: 5vw;
+    background-color: #4c2b00;
+    position: absolute;
+}
+
 
 #b{
     height: 30px;
