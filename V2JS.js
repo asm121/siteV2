@@ -5,6 +5,23 @@
  */
 
 $(document).ready(function(){
+
+
+    if (this.hash !== "") {
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        $('html, body').animate({
+            scrollTop: $("#1").offset().top
+        },1000, function(){
+            window.location.hash = hash;
+
+
+        });
+    }
+
+
+    $('#dot1').css('background-color','#4f5dd1');
     // Add smooth scrolling to all links
     $("#dot1").on('click', function(event) {
 
@@ -15,15 +32,20 @@ $(document).ready(function(){
 
             var hash = this.hash;
 
+
             // Using jQuery's animate() method to add smooth page scroll
             $('html, body').animate({
                 scrollTop: $("#1").offset().top
             },1000, function(){
-
-
                 window.location.hash = hash;
+
+
             });
         }
+        $('#dot2').css('background-color','#562449');
+        $('#dot3').css('background-color','#562449');
+        $('#dot4').css('background-color','#562449');
+        $(this).css('background-color','#4f5dd1');
     });
 
     $("#dot2").on('click', function(event) {
@@ -38,12 +60,18 @@ $(document).ready(function(){
             // Using jQuery's animate() method to add smooth page scroll
             $('html, body').animate({
                 scrollTop: $("#2").offset().top
+
             },1000, function(){
-
-
                 window.location.hash = hash;
+
+
             });
         }
+        $('#dot3').css('background-color','#4f5dd1');
+        $('#dot1').css('background-color','#4f5dd1');
+        $('#dot4').css('background-color','#4f5dd1');
+        $(this).css('background-color','#562449');
+
     });
 
     $("#dot3").on('click', function(event) {
@@ -62,8 +90,13 @@ $(document).ready(function(){
 
 
                 window.location.hash = hash;
+
             });
         }
+        $('#dot2').css('background-color','#562449');
+        $('#dot1').css('background-color','#562449');
+        $('#dot4').css('background-color','#562449');
+        $(this).css('background-color','#4f5dd1');
     });
 
     $("#dot4").on('click', function(event) {
@@ -82,8 +115,13 @@ $(document).ready(function(){
 
 
                 window.location.hash = hash;
+
             });
         }
+        $('#dot2').css('background-color','#4f5dd1');
+        $('#dot1').css('background-color','#4f5dd1');
+        $('#dot3').css('background-color','#4f5dd1');
+        $(this).css('background-color','#562449');
     });
 
     // Firefox 1.0+
@@ -92,7 +130,7 @@ $(document).ready(function(){
     var isChrome = !!window.chrome && !!window.chrome.webstore;
 
     if(isFirefox) {
-        (function () {
+        (function () {$(this).css('background-color','BLACK');
             var delay = false;
 
             $(document).on('mousewheel DOMMouseScroll', function (event) {

@@ -12,8 +12,8 @@ html{
 
 #dot1{
     border: 1.4px solid black;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     position: fixed;
     top: 44vh;
@@ -25,8 +25,8 @@ html{
 #dot2{
 
     border: 1.4px solid black;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     position: fixed;
     top: 48vh;
@@ -36,8 +36,8 @@ html{
 
 #dot3{
     border: 1.4px solid black;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     position: fixed;
     top: 52vh;
@@ -47,8 +47,8 @@ html{
 
 #dot4{
     border: 1.4px solid black;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     position: fixed;
     top: 56vh;
@@ -58,17 +58,17 @@ html{
 }
 
 #dot1:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 #dot2:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 #dot3:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 
 #dot4:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 
 
