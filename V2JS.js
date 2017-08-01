@@ -21,7 +21,7 @@ $(document).ready(function(){
     }
 
 
-    $('#dot1').css('background-color','#4f5dd1');
+
     // Add smooth scrolling to all links
     $("#dot1").on('click', function(event) {
 
@@ -42,10 +42,7 @@ $(document).ready(function(){
 
             });
         }
-        $('#dot2').css('background-color','#562449');
-        $('#dot3').css('background-color','#562449');
-        $('#dot4').css('background-color','#562449');
-        $(this).css('background-color','#4f5dd1');
+
     });
 
     $("#dot2").on('click', function(event) {
@@ -67,10 +64,7 @@ $(document).ready(function(){
 
             });
         }
-        $('#dot3').css('background-color','#4f5dd1');
-        $('#dot1').css('background-color','#4f5dd1');
-        $('#dot4').css('background-color','#4f5dd1');
-        $(this).css('background-color','#562449');
+
 
     });
 
@@ -93,10 +87,7 @@ $(document).ready(function(){
 
             });
         }
-        $('#dot2').css('background-color','#562449');
-        $('#dot1').css('background-color','#562449');
-        $('#dot4').css('background-color','#562449');
-        $(this).css('background-color','#4f5dd1');
+
     });
 
     $("#dot4").on('click', function(event) {
@@ -118,10 +109,7 @@ $(document).ready(function(){
 
             });
         }
-        $('#dot2').css('background-color','#4f5dd1');
-        $('#dot1').css('background-color','#4f5dd1');
-        $('#dot3').css('background-color','#4f5dd1');
-        $(this).css('background-color','#562449');
+
     });
 
     // Firefox 1.0+
