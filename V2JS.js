@@ -5,6 +5,31 @@
  */
 
 $(document).ready(function(){
+    /*
+    //Highlight navigation circles of page currently in view
+    function isScrolledIntoView(elem) {
+        var $window = $(window),
+            docViewTop = $window.scrollTop(),
+            docViewBottom = docViewTop + $window.height(),
+            elemTop = $(elem).offset().top,
+            elemBottom = elemTop + $(elem).outerHeight();
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+
+    $(window).on("scroll", function() {
+
+
+        $('.dots').each(function() {
+            if (isScrolledIntoView(this)) {
+                $(this).css("top","30px");
+            } else {
+                $(this).css("top","-30px");
+            }
+        });
+
+    });
+*/
+
 
 
     if (this.hash !== "") {
