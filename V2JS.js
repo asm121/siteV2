@@ -5,6 +5,14 @@
  */
 
 $(document).ready(function(){
+
+
+    if (screen.width <= 1000) {
+
+        window.location.href = "https://austin-martinagile.github.io/";
+
+    }
+
     /*
     //Highlight navigation circles of page currently in view
     function isScrolledIntoView(elem) {
